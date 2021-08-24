@@ -1,0 +1,20 @@
+public class minutes{ 
+   public static void main(string [] args ){ 
+      
+        double minutes in year= 60*24*365;
+        
+        scanner input=new scanner(system.in);
+        
+        system.out.print("input the numberof minutes: ");
+        
+        double min = input.next double (); 
+         
+        long years=(long)(min/minutes inyear); 
+         
+        int days=(int)(min/60/24)%365;
+        
+        system.out.println((int)min+" mintes in approximately " + years +" years and +days + "days");
+     
+     } 
+   
+}
